@@ -3,7 +3,7 @@
 本部分内容为《数据挖掘导论》4.3节
 
 ### 决策树生成算法
-所谓决策树，就是一个类似于流程图的树形结构，树内部的每一个节点代表的是对一个属性的测试，树的分支代表该属性的每一个测试结果，而树的每一个叶子节点代表一个类别。树的最高层是
+所谓决策树，就是一个类似于流程图的树形结构，树内部的每一个节点代表的是对一个属性的测试，树的分支代表该属性的每一个测试结果，而树的每一个叶子节点代表一个类别。树的最高层是就是根节点。下图即为一个决策树的示意描述，内部节点用矩形表示，叶子节点用椭圆表示。该决策树用于对一个学生是否会在本商场购买电脑进行分类预测。
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
@@ -34,3 +34,5 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=ax^{2}&space;&plus;&space;by^{2}&space;&plus;&space;c&space;=&space;0" target="_blank"><img src="https://latex.codecogs.com/png.latex?ax^{2}&space;&plus;&space;by^{2}&space;&plus;&space;c&space;=&space;0" title="ax^{2} + by^{2} + c = 0" /></a>
