@@ -6,7 +6,7 @@
 ### 决策树生成算法
 所谓决策树，就是一个类似于流程图的树形结构，树内部的每一个节点代表的是对一个属性的测试，树的分支代表该属性的每一个测试结果，而树的每一个叶子节点代表一个类别。树的最高层是就是根节点。下图即为一个决策树的示意描述，内部节点用矩形表示，叶子节点用椭圆表示（但是这里因为文本编辑的原因，内部节点用菱形表示）。该决策树用于对一个顾客是否会在本商场购买电脑进行分类预测。
 
-'''flow
+```flow
 e1=>end: YES
 op11=>operation: 年龄？
 op21=>operation: 学生？
@@ -22,7 +22,7 @@ e221=>end: YES
 e222=>end: NO
 op22(一般)->e221
 op22(良好)->e222
-'''
+```
 
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
