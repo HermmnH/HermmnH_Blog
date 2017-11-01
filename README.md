@@ -7,21 +7,14 @@
 所谓决策树，就是一个类似于流程图的树形结构，树内部的每一个节点代表的是对一个属性的测试，树的分支代表该属性的每一个测试结果，而树的每一个叶子节点代表一个类别。树的最高层是就是根节点。下图即为一个决策树的示意描述，内部节点用矩形表示，叶子节点用椭圆表示（但是这里因为文本编辑的原因，内部节点用菱形表示）。该决策树用于对一个顾客是否会在本商场购买电脑进行分类预测。
 
 ```flow
-e1=>end: YES
-op11=>operation: 年龄？
-op21=>operation: 学生？
-op22=>operation: 信用等级？
-op11(<30)->op21
-op11(30-40)->e1
-op11(>40)->op22
-e211=>end: YES
-e212=>end: NO
-op21(是)->e211
-op21(否)->e212
-e221=>end: YES
-e222=>end: NO
-op22(一般)->e221
-op22(良好)->e222
+st=>start: Start
+e=>end: End
+op1=>operation: My Operation
+sub1=>subroutine: My Subroutine
+cond=>condition: Yes or No?
+io=>inputoutput: catch something...
+op1->op1->cond
+cond(Yes)->io->e
 ```
 
 
